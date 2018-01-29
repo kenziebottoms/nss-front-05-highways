@@ -1,57 +1,33 @@
-# Blank Grunt project
+# Route Routing
 
-An empty Grunt-running setup including:
+![](https://img.shields.io/badge/data-static_json-lightgrey.svg)
+![](https://img.shields.io/badge/template-angular-red.svg)
+![](https://img.shields.io/badge/css_framework-bootstrap-5F2C7C.svg)
+![](https://img.shields.io/badge/mvp-in_progress-yellow.svg)
 
-![](https://img.shields.io/badge/updated-jan_26th_2018-green.svg)
-![](https://img.shields.io/badge/grunt-v1.0.1-yellow.svg)
-![](https://img.shields.io/badge/angularJS-v1.6.8-red.svg)
-![](https://img.shields.io/badge/jquery-v3.3.1-blue.svg)
-![](https://img.shields.io/badge/lodash-v4.17.4-blue.svg)
+## Part One 
 
-# Using this repo
+For this exercise, you're going to create a basic application, with two views. Each view will provide information about a famous American highway. Each will have a title show the name of the highway, and an element in which the description of the highway will be displayed.
 
-### Initialize an `npm` project for use with Grunt
+You will need:
 
-In the root:
+- [ ] An Angular application module. Inject `ngRoute` into your applcation.
+- [ ] A `config` section for your application where you set up two routes.
+    - [ ] Famous highway #1
+    - [ ] Famous highway #2
+- [ ] Two controllers defined in your application.
+- [ ] Two partials - one bound to one of the controllers.
+- [ ] Each controller will have two scope variables.
+    - [ ] `$scope.highwayName`
+    - [ ] `$scope.highwayDescription`
+- [ ] You provide the name and description for each highway that you find via research.
 
-```shell
-> npm init -y
-```
+## Part Two
 
-`-y` says yes to every question `npm init` would otherwise ask you.
+In this exercise you will add a default view to your Routes of America application.
 
-### Install necessary `npm` modules
+- [ ] Add an additional route to your application that will load a listing view.
+- [ ] The listing view simply shows two hyperlinks that route the user to the two routes you built previously.
+- [ ] Add an `otherwise` configuration option to your routing.
 
-These are listed as dependencies in `package.json` already.
-
-```shell
-> npm install
-```
-
-### File structure
-
-```
-root
- |--assets
- |   |--css
- |   |
- |   |--js
- |   |   |--ctrl
- |   |   |--data
- |   |   |--factory
- |   |   |--partials
- |   |   |--main.js
- |   |   `--router.js
- |   |
- |   |--sass
- |   `--templates
- |       `--partials
- |
- |--dist
- |   `--bundle.js
- |
- |--.gitignore
- |--Gruntfile.js
- |--package.json
- `--index.html
-```
+This route shows the list: [http://localhost:8080/#/](http://localhost:8080/#/)
