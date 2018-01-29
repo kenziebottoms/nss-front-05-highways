@@ -3,10 +3,9 @@
 const angular = require("angular");
 const ngRoute = require("angular-route");
 
-let myApp = angular.module("appName", [ngRoute]);
+let myApp = angular.module("RouteApp", [ngRoute]);
 
 require("./router.js");
 
-require("./ctrl/controllers");
-
-require("./factory/factories");
+require("./ctrl/atlanticRoad");
+require("./ctrl/furkaPass");
