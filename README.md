@@ -11,12 +11,12 @@ For this exercise, you're going to create a basic application, with two views. E
 
 You will need:
 
-- [ ] An Angular application module. Inject `ngRoute` into your applcation.
-- [ ] A `config` section for your application where you set up two routes.
-    - [ ] Famous highway #1
-    - [ ] Famous highway #2
-- [ ] Two controllers defined in your application.
-- [ ] Two partials - one bound to one of the controllers.
+- [x] An Angular application module. Inject `ngRoute` into your applcation.
+- [x] A `config` section for your application where you set up two routes.
+    - [x] Famous highway #1
+    - [x] Famous highway #2
+- [x] Two controllers defined in your application.
+- [x] Two partials - one bound to one of the controllers.
 - [ ] Each controller will have two scope variables.
     - [ ] `$scope.highwayName`
     - [ ] `$scope.highwayDescription`
