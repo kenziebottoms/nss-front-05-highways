@@ -17,10 +17,10 @@ You will need:
     - [x] Famous highway #2
 - [x] Two controllers defined in your application.
 - [x] Two partials - one bound to one of the controllers.
-- [ ] Each controller will have two scope variables.
-    - [ ] `$scope.highwayName`
-    - [ ] `$scope.highwayDescription`
-- [ ] You provide the name and description for each highway that you find via research.
+- [x] Each controller will have two scope variables.
+    - [x] `$scope.highwayName`
+    - [x] `$scope.highwayDescription`
+- [x] You provide the name and description for each highway that you find via research.
 
 ## Part Two
 
