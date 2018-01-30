@@ -7,5 +7,6 @@ let myApp = angular.module("RouteApp", [ngRoute]);
 
 require("./router.js");
 
+require("./ctrl/list");
 require("./ctrl/atlanticRoad");
 require("./ctrl/furkaPass");

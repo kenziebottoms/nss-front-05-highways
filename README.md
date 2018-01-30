@@ -2,8 +2,9 @@
 
 ![](https://img.shields.io/badge/data-static_json-lightgrey.svg)
 ![](https://img.shields.io/badge/template-angular-red.svg)
+![](https://img.shields.io/badge/modularity-browserify-yellow.svg)
 ![](https://img.shields.io/badge/css_framework-bootstrap-5F2C7C.svg)
-![](https://img.shields.io/badge/mvp-in_progress-yellow.svg)
+![](https://img.shields.io/badge/mvp-working-green.svg)
 
 ## Part One 
 
@@ -26,8 +27,6 @@ You will need:
 
 In this exercise you will add a default view to your Routes of America application.
 
-- [ ] Add an additional route to your application that will load a listing view.
-- [ ] The listing view simply shows two hyperlinks that route the user to the two routes you built previously.
-- [ ] Add an `otherwise` configuration option to your routing.
-
-This route shows the list: [http://localhost:8080/#/](http://localhost:8080/#/)
+- [x] Add an additional route to your application that will load a listing view.
+- [x] The listing view simply shows two hyperlinks that route the user to the two routes you built previously.
+- [x] Add an `otherwise` configuration option to your routing.
