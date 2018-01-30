@@ -6,6 +6,14 @@
 ![](https://img.shields.io/badge/css_framework-bootstrap-5F2C7C.svg)
 ![](https://img.shields.io/badge/mvp-working-green.svg)
 
+## Run locally
+
+```bash
+git clone git@github.com:kenziebottoms/nss-front-05-highways.git
+npm install
+grunt
+```
+
 ## Part One 
 
 For this exercise, you're going to create a basic application, with two views. Each view will provide information about a famous American highway. Each will have a title show the name of the highway, and an element in which the description of the highway will be displayed.
