@@ -10,8 +10,10 @@
 
 ```bash
 git clone git@github.com:kenziebottoms/nss-front-05-highways.git
+cd nss-front-05-highways
 npm install
 grunt
+hs -o
 ```
 
 ## Part One 
